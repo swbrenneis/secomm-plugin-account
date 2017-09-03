@@ -1,8 +1,8 @@
 {
-  "name": "secomm-account-plugin",
+  "name": "secomm-plugin-account",
   "version": "0.1.0",
   "cordova": {
-    "id": "secomm-account-plugin",
+    "id": "secomm-plugin-account",
     "platforms": [
       "android",
       "ios",

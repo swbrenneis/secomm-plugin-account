@@ -1,0 +1,13 @@
+{
+  "name": "secomm-account-plugin",
+  "version": "0.1.0",
+  "cordova": {
+    "id": "secomm-account-plugin",
+    "platforms": [
+      "android",
+      "ios",
+    ]
+  },
+  "description": "seComm plugin for creating new accounts."
+
+}

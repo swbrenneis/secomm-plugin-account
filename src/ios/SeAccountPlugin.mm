@@ -1,4 +1,4 @@
-#import <SeAccountPlugin.h>
+#import "SeAccountPlugin.h"
 
 @implementation SeAccountPlugin : CDVPlugin
 

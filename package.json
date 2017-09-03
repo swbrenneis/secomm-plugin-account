@@ -5,7 +5,7 @@
     "id": "secomm-plugin-account",
     "platforms": [
       "android",
-      "ios",
+      "ios"
     ]
   },
   "description": "seComm plugin for creating new accounts."

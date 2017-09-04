@@ -4,6 +4,8 @@
 package org.secomm.plugins.cordova;
 
 import org.apache.cordova.CallbackContext;
+import org.apache.cordova.LOG;
+import org.apache.cordova.PluginResult;
 import org.json.JSONArray;
 import org.json.JSONException;
 
@@ -25,8 +27,26 @@ public class CreateVaultFunction implements PluginFunction {
 	 */
 	@Override
 	public boolean execute(JSONArray args, CallbackContext callbackContext) throws JSONException {
-		// TODO Auto-generated method stub
-		return false;
+
+		LOG.d(SeAccountPlugin .TAG, "Starting create vault function");
+
+		String accountname = args.getString(0);
+		String passphrase = args.getString(1);
+		ParameterGenerator gen = new ParameterGenerator();
+		gen.generateAccountParameters(accountname);
+
+		ClientVault vault = new ClientVault(gen, passphrase);
+		try {
+			byte[] encoded = vault.encodeVault();
+			PluginResult result = new PluginResult(PluginResult.Status.OK, encoded);
+			callbackContext.sendPluginResult(result);
+			return true;
+		}
+		catch (VaultException e) {
+			LOG.d(SeAccountPlugin.TAG, "Vault creation error: " + e.getLocalizedMessage());
+			return false;
+		}
+
 	}
 
 }

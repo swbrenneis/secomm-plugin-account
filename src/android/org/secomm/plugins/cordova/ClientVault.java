@@ -101,7 +101,13 @@ public class ClientVault extends SessionState {
 
 	}
 	
-	private byte[] encodeVault() throws VaultException {
+	/**
+	 * Generates an encrypted, encoded vault in a byte array.
+	 * 
+	 * @return
+	 * @throws VaultException
+	 */
+	public byte[] encodeVault() throws VaultException {
 
 		try {
 			GCMCodec codec = new GCMCodec();

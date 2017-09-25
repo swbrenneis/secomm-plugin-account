@@ -20,13 +20,16 @@
       </js-module>
       <config-file target="res/xml/config.xml" parent="/*">
         <feature name="SeAccountPlugin">
-          <param name="android-package" value="org.secomm.plugins.cordova.SeAccountPlugin" />
+          <param name="android-package" value="org.secomm.plugins.cordova.account.SeAccountPlugin" />
           <param name="onload" value="true" />
         </feature>
       </config-file>
 
-      <source-file src="src/android/org/secomm/plugins/cordova/SeAccountPlugin.java" target-dir="src/org/secomm/plugins/cordova" />
-      <source-file src="src/android/libs/CryptoKitty.jar" target-dir="libs" />
+      <source-file src="src/android/org/secomm/plugins/cordova/account/SeAccountPlugin.java" target-dir="src/android/org/secomm/plugins/cordova/account" />
+      <source-file src="src/android/libs/CryptoKitty.jar" target-dir="src/android/libs" />
+      <source-file src="src/android/libs/classes.jar" target-dir="src/android/libs" />
+      <source-file src="src/android/libs/java-json.jar" target-dir="src/android/libs" />
+      <source-file src="src/android/libs/secomm-account-alpha.jar" target-dir="src/android/libs" />
     </platform>
 
     <!-- ios -->

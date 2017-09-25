@@ -26,14 +26,6 @@
       </config-file>
 
       <source-file src="src/android/org/secomm/plugins/cordova/SeAccountPlugin.java" target-dir="src/org/secomm/plugins/cordova" />
-      <source-file src="src/android/org/secomm/plugins/cordova/FunctionFactory.java" target-dir="src/org/secomm/plugins/cordova" />
-      <source-file src="src/android/org/secomm/plugins/cordova/PluginFunction.java" target-dir="src/org/secomm/plugins/cordova" />
-      <source-file src="src/android/org/secomm/plugins/cordova/PluginFunctionFactory.java" target-dir="src/org/secomm/plugins/cordova" />
-      <source-file src="src/android/org/secomm/plugins/cordova/CreateVaultFunction.java" target-dir="src/org/secomm/plugins/cordova" />
-      <source-file src="src/android/org/secomm/plugins/cordova/ClientVault.java" target-dir="src/org/secomm/plugins/cordova" />
-      <source-file src="src/android/org/secomm/plugins/cordova/VaultException.java" target-dir="src/org/secomm/plugins/cordova" />
-      <source-file src="src/android/org/secomm/plugins/cordova/ParameterGenerator.java" target-dir="src/org/secomm/plugins/cordova" />
-      <source-file src="src/android/org/secomm/plugins/cordova/SessionState.java" target-dir="src/org/secomm/plugins/cordova" />
       <source-file src="src/android/libs/CryptoKitty.jar" target-dir="libs" />
     </platform>
 

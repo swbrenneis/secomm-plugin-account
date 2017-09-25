@@ -1,4 +1,4 @@
-package org.secomm.plugins.cordova;
+package org.secomm.plugins.cordova.account;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaInterface;
@@ -7,10 +7,11 @@ import org.apache.cordova.CordovaWebView;
 import org.apache.cordova.LOG;
 import org.json.JSONArray;
 import org.json.JSONException;
+import org.secomm.plugins.cordova.account.impl.FunctionFactory;
+import org.secomm.plugins.cordova.account.impl.PluginFunction;
+import org.secomm.plugins.cordova.account.impl.SeAccountPluginImpl;
 
 public class SeAccountPlugin extends CordovaPlugin {
-
-	public static final String TAG = "SeAccountPlugin";
 
 	/*
 	 * (non-Javadoc)
@@ -32,11 +33,11 @@ public class SeAccountPlugin extends CordovaPlugin {
 	@Override
 	public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
 
-		LOG.d(TAG, "Starting execute " + action);
+		LOG.d(SeAccountPluginImpl.TAG, "Starting execute " + action);
 
 		PluginFunction function = FunctionFactory.getFunction(action);
 		if (function != null) {
-			return function.execute(args, callbackContext);
+			return function.execute(args, callbackContext, cordova);
 		}
 		else {
 			return false;

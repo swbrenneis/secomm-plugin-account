@@ -46,5 +46,9 @@
 
         <header-file src="src/ios/SeAccountPlugin.h" />
         <source-file src="src/ios/SeAccountPlugin.mm" />
+        <framework src="src/ios/coder_iOS.framework" />
+        <framework src="src/ios/CryptoKitty_iOS.framework" />
+        <framework src="src/ios/NTL_iOS.framework" />
+        <framework src="src/ios/SeAccountPlugin.framework" />
     </platform>
 </plugin>

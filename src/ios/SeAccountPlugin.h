@@ -2,6 +2,8 @@
 
 @interface SeAccountPlugin : CDVPlugin
 
+- (void) pluginInitialize;
+
 - (void) newAccount:(CDVInvokedUrlCommand*)command;
 
 @end

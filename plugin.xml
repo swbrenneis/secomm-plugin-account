@@ -25,11 +25,11 @@
         </feature>
       </config-file>
 
-      <source-file src="src/android/org/secomm/plugins/cordova/account/SeAccountPlugin.java" target-dir="src/android/org/secomm/plugins/cordova/account" />
-      <source-file src="src/android/libs/CryptoKitty.jar" target-dir="src/android/libs" />
-      <source-file src="src/android/libs/classes.jar" target-dir="src/android/libs" />
-      <source-file src="src/android/libs/java-json.jar" target-dir="src/android/libs" />
-      <source-file src="src/android/libs/secomm-account-alpha.jar" target-dir="src/android/libs" />
+      <source-file src="src/android/SeAccountPlugin.java" target-dir="src/org/secomm/plugins/cordova/account" />
+      <source-file src="src/android/libs/CryptoKitty.jar" target-dir="libs" />
+      <source-file src="src/android/libs/classes.jar" target-dir="libs" />
+      <source-file src="src/android/libs/java-json.jar" target-dir="libs" />
+      <source-file src="src/android/libs/secomm-account-alpha.jar" target-dir="libs" />
     </platform>
 
     <!-- ios -->

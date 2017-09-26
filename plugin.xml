@@ -16,7 +16,7 @@
         <runs/>
 
         <!-- This is the window variable name you want, like window.SeAccountPlugin -->
-        <clobbers target="SeAccountPlugin" />
+        <clobbers target="secomm.cordova.SeAccountPlugin" />
       </js-module>
       <config-file target="res/xml/config.xml" parent="/*">
         <feature name="SeAccountPlugin">
@@ -36,7 +36,7 @@
     <platform name="ios">
         <js-module src="www/plugin.js" name="plugin">
             <runs/>
-            <clobbers target="SeAccountPlugin" />
+            <clobbers target="secomm.cordova.SeAccountPlugin" />
         </js-module>
         <config-file target="config.xml" parent="/*">
             <feature name="SeAccountPlugin">

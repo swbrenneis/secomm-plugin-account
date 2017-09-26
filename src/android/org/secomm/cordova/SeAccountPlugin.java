@@ -1,4 +1,4 @@
-package org.secomm.plugins.cordova.account;
+package org.secomm.cordova;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaInterface;

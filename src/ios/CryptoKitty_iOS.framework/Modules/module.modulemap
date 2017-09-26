@@ -1,0 +1,6 @@
+framework module CryptoKitty_iOS {
+  umbrella header "CryptoKitty_iOS.h"
+
+  export *
+  module * { export * }
+}

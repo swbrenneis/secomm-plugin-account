@@ -1,0 +1,6 @@
+framework module SeAccountPlugin {
+  umbrella header "SeAccountPlugin.h"
+
+  export *
+  module * { export * }
+}

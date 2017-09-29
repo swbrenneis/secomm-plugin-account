@@ -5,7 +5,7 @@
 
 - (void) pluginInitialize {
 
-    [FunctionFactory initialize];
+    [SEFunctionFactory initialize];
 
 }
 

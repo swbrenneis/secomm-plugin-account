@@ -4,11 +4,17 @@
 @implementation SeAccountPlugin : CDVPlugin
 
 - (void) pluginInitialize {
+
+    [FunctionFactory initialize];
+
 }
 
 - (void) newAccount:(CDVInvokedUrlCommand*)command {
 
-    AccountCreator *creator = [[AccountCreator] init];
+    NSArray *args = command.arguments;
+    id<SEPluginFunction> function = [SEFunctionFactory getFunction:command.methodName];
+    CDVPluginResult *pluginResult = [function execute:args];
+    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 
 }
 

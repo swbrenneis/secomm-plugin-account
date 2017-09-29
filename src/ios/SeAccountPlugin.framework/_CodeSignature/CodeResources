@@ -8,9 +8,17 @@
 		<data>
 		utS83sGotu3HREWMuNHaXz9yWyc=
 		</data>
+		<key>Headers/SEFunctionFactory.h</key>
+		<data>
+		KFIePHTBeDRAdxyWUbRFOGWHJvU=
+		</data>
+		<key>Headers/SEPluginFunction.h</key>
+		<data>
+		KlxQdx5cYMGcietQcuyQK/TgTZY=
+		</data>
 		<key>Headers/SeAccountPlugin.h</key>
 		<data>
-		aIKHzbMaYMxu+xAVvChRIrCzSdw=
+		mutvZ200+vYAhcjWxAPISwTvY8I=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -34,15 +42,37 @@
 			Cg6VtQeqOrxW2ZqFtpjeUXwBrUEyde24lDA4+iqKMI8=
 			</data>
 		</dict>
+		<key>Headers/SEFunctionFactory.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KFIePHTBeDRAdxyWUbRFOGWHJvU=
+			</data>
+			<key>hash2</key>
+			<data>
+			OONdr2g53RUgDWhz4pqOKS3pW+JARlI+9te0sdCJViY=
+			</data>
+		</dict>
+		<key>Headers/SEPluginFunction.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KlxQdx5cYMGcietQcuyQK/TgTZY=
+			</data>
+			<key>hash2</key>
+			<data>
+			jil4W4nn04ILyFlOw9Cdbxn7yUyEVi+Ivn3Gb92KE0U=
+			</data>
+		</dict>
 		<key>Headers/SeAccountPlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aIKHzbMaYMxu+xAVvChRIrCzSdw=
+			mutvZ200+vYAhcjWxAPISwTvY8I=
 			</data>
 			<key>hash2</key>
 			<data>
-			6elBubPyNbphO9K32At1ZTFstGTARNrb6dtT6qI71oY=
+			JKhz8/AxoYERbzj6sBy5yBgQh8V3eLzl94KqRQl4zRE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

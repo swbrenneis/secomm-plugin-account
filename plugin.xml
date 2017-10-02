@@ -48,7 +48,6 @@
         <source-file src="src/ios/SeAccountPlugin.mm" />
         <framework src="src/ios/coder_iOS.framework" custom="true" embed="true" />
         <framework src="src/ios/CryptoKitty_iOS.framework" custom="true" embed="true" />
-        <framework src="src/ios/NTL_iOS.framework" custom="true" embed="true" />
         <framework src="src/ios/SeAccountPlugin.framework" custom="true" embed="true" />
     </platform>
 </plugin>

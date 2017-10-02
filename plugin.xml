@@ -45,7 +45,7 @@
         </config-file>
 
         <header-file src="src/ios/SeAccountPlugin.h" />
-        <source-file src="src/ios/SeAccountPlugin.mm" />
+        <source-file src="src/ios/SeAccountPlugin.m" />
         <framework src="src/ios/coder_iOS.framework" custom="true" embed="true" />
         <framework src="src/ios/CryptoKitty_iOS.framework" custom="true" embed="true" />
         <framework src="src/ios/SeAccountPlugin.framework" custom="true" embed="true" />

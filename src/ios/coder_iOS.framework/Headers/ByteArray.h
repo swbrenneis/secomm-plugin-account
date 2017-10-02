@@ -27,7 +27,7 @@ class ByteArray {
         // Construct a ByteArray from a standard string.
         explicit ByteArray(const std::string& str, bool hex = false);
         // Construct a ByteArray with an initial size
-        ByteArray(unsigned long size, uint8_t fill=0);
+        explicit ByteArray(unsigned long size, uint8_t fill=0);
         ~ByteArray();
 
     private:

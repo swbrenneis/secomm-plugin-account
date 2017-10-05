@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/CKPEMCodec.h</key>
+		<data>
+		sF9zQWEWA51qYaoLRmJVjg3wRlk=
+		</data>
 		<key>Headers/CKRSAKeyPair.h</key>
 		<data>
 		4ds7aIMdHrNzQMX0i6KzHGqSlqE=
@@ -20,9 +24,21 @@
 		<data>
 		mkhwLbuq2ergg6qufqTzufY9UDs=
 		</data>
+		<key>Headers/CKSHA1.h</key>
+		<data>
+		MStPC1R0ASleXeYTuXOlrOb3A2g=
+		</data>
+		<key>Headers/CKSHA256.h</key>
+		<data>
+		pqa8zPZ5he9jTI91RqKA9pSnfn4=
+		</data>
+		<key>Headers/CKSecureRandom.h</key>
+		<data>
+		fMltbS/5+7g1i3L8tRY49SSbzIc=
+		</data>
 		<key>Headers/CryptoKitty_iOS.h</key>
 		<data>
-		DLN8dWUzGkPinhsd7fFLRlBcZKE=
+		k8LVE7E4cf6cyov2P65GtRYQz2g=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -35,6 +51,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/CKPEMCodec.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sF9zQWEWA51qYaoLRmJVjg3wRlk=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ky6kuRPmCiKbJcKUZBb58++zbrG0m03fFSYD/sjqBVE=
+			</data>
+		</dict>
 		<key>Headers/CKRSAKeyPair.h</key>
 		<dict>
 			<key>hash</key>
@@ -79,15 +106,48 @@
 			ZIyVIQbHQNA0auYQi0V8Hpese6PHba45JLEb34OEJVA=
 			</data>
 		</dict>
+		<key>Headers/CKSHA1.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MStPC1R0ASleXeYTuXOlrOb3A2g=
+			</data>
+			<key>hash2</key>
+			<data>
+			Fn20i7b4CFVpRner9ELyMbjH2umvFuiiSK3jYrEP3Kg=
+			</data>
+		</dict>
+		<key>Headers/CKSHA256.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pqa8zPZ5he9jTI91RqKA9pSnfn4=
+			</data>
+			<key>hash2</key>
+			<data>
+			E01b/itkPpWlO3DKP/gkeQn9Zinef3MQsUwFuBXR8kw=
+			</data>
+		</dict>
+		<key>Headers/CKSecureRandom.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fMltbS/5+7g1i3L8tRY49SSbzIc=
+			</data>
+			<key>hash2</key>
+			<data>
+			GSYPX+bSN5Mu2guOU/OtX9Kb2chYvdsa42mJ2rfQl90=
+			</data>
+		</dict>
 		<key>Headers/CryptoKitty_iOS.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DLN8dWUzGkPinhsd7fFLRlBcZKE=
+			k8LVE7E4cf6cyov2P65GtRYQz2g=
 			</data>
 			<key>hash2</key>
 			<data>
-			9GA1qhllkJxCN2gudHV7B489ug0IpdYDcIMkMkEAY/8=
+			o8v7W/W5/gj3H/fka9HQeLPCHTqIgVbVKYyfR6KCpe4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
